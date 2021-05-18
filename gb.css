@@ -1,0 +1,92 @@
+body {
+  background-image: url(https://www.altonivel.com.mx/assets/images/Estructura_V3/Marketing/IdeasGestion/retro.jpg);
+  background-repeat: repeat;
+}
+  .main {
+    display:flex;
+    justify-content: center;
+  }
+  .baseconsola {
+    border-radius: 15px;
+    border-bottom-right-radius: 150px;
+    width:600px;
+    height: 950px;
+    margin:55px 50px;
+    padding:20px;
+    background-color: #D9D5D6;
+    /* background-color: linear-gradient(#E9EEE7,#D9D5D6); */
+  }
+  .pantallaEXT {
+    border-radius: 15px;
+    border-bottom-right-radius: 70px;
+    width:585px;
+    height: 425px;
+    margin: 30px 15px 5px 8px;
+    background-color: #787684;
+  }
+  .zonaTexto {
+    display:flex;
+    flex-direction:row;
+  }
+  .pantallaINT {    
+    border-radius: 5px;
+    width:420px;
+    height: 340px;
+    margin: 20px 0px 0px 85px;
+    background-color:#9CA04C;
+  }
+  .rallasLEFT {
+    margin: 10px 12px 0px 28px;
+    height: 1.5px;
+    width: 200px; /*alarga la ralla roja y empuja al texto y la del otro lado */
+    background-color: #632B4B;
+  }
+  .texto {
+    margin-top: 7px;
+    font-size: 15px;
+    font-family: arial,sans-serif;
+    text-align: right;
+  }
+  .rallasRIGHT {
+    margin: 10px 6px 0px 10px;
+    height: 1.5px;
+    width: 60px;
+    background-color: #342350;
+  }
+  .textosninboy {
+    display: flex;
+    flex-direction: row;
+  }
+  .logo {
+    margin: 15px 6px 0px 0px;
+    font-size: 25px;
+    font-family: arial,sans-serif;
+  }
+  .GAMEBOY {
+    font-style: italic;
+    font-size: 45px;
+    font-family: arial,sans-serif;
+  }
+  .tm {
+    margin: 25px 6px 0px 0px;
+    font-size: 15px;
+    font-family: arial,sans-serif;
+  }
+  .botones {
+
+  }
+  .botonMOVE {
+
+  }
+  .botonSelect {
+
+  }
+  .botonStart {
+
+  }
+  .botonB {
+
+  }
+  .botonA {
+    
+  }
