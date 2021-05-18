@@ -16,6 +16,13 @@ body {
     background-color: #D9D5D6;
     /* background-color: linear-gradient(#E9EEE7,#D9D5D6); */
   }
+  /* .topes {
+    content: 10px;
+    position:absolute;
+    width: 100%;
+    height: 31px;
+    border-bottom: 4px solid #E0E0E0;
+  } */
   .pantallaEXT {
     border-radius: 15px;
     border-bottom-right-radius: 70px;
@@ -73,20 +80,36 @@ body {
     font-family: arial,sans-serif;
   }
   .botones {
-
+    align-items: center;
   }
   .botonMOVE {
-
-  }
-  .botonSelect {
 
   }
   .botonStart {
 
   }
-  .botonB {
-
+  .botonAB {
+    content: "";
+    position: absolute;
+    top: 720px;
+    right:290px;
+    width: 60px;
+    height: 60px;
+    background: #A93671;
+    box-shadow: 89px 0 #A93671;
+    border-radius: 100%;
+    -webkit-transform: rotate(-25deg);
   }
-  .botonA {
-    
+  .fondoAB {
+    position: absolute;
+    top: 690px;
+    left: 552px;
+    width: 165px;
+    height: 85px;
+    background: #DFDFDF;
+    border-radius: 30px;
+    -webkit-transform: rotate(-25deg);
+  }
+  .botonSelect {
+
   }
